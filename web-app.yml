@@ -1,7 +1,8 @@
 - name: Configure nginx web server
   hosts: webservers
   become: true
-  
+  become_user: root
+  become_method: sudo
   tasks:
   - name: update apt
     apt:
