@@ -1,5 +1,5 @@
 [webservers]
-server1 ansible_host=172.31.91.78
+ 172.31.91.78
 
 
 [all:vars]
