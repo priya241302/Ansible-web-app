@@ -10,7 +10,7 @@
   - name: Install nginx
     apt:
       name: nginx
-      state: latest
+      state: present
   - name: Start Nginx
     service:
       name: nginx
